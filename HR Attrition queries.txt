@@ -1,0 +1,46 @@
+CREATE DATABASE HR
+use HR
+GO
+select * from [HR empolyee attrition]
+
+select Age, Department, Employee_Number from [HR empolyee attrition]
+Order by Age
+Asc
+
+select Education_Field, Age from [HR empolyee attrition]
+where Age = 18
+order by Education_Field
+
+select Department, Employee_Number from [HR empolyee attrition] 
+where Department = 'sales'
+order by Employee_Number
+
+select Business_Travel, Distance_From_Home, Age, Education_Field from [HR empolyee attrition]
+Order by Age
+
+Select Job_Involvement, Gender, Job_Role from [HR empolyee attrition]
+order by Job_Involvement
+
+select Age, Gender, Marital_Status, Years_At_Company from [HR empolyee attrition]
+order by Age
+Desc
+
+select Age, Gender, Job_Role, Years_in_current_Role from [HR empolyee attrition]
+order by Age
+Asc
+
+select Attrition, Gender, Business_Travel, Daily_Rate from [HR empolyee attrition]
+order by Daily_Rate
+Asc
+
+select Department, Monthly_Income from [HR empolyee attrition]
+order by Monthly_Income
+Desc
+
+select Department, Monthly_Rate from [HR empolyee attrition]
+order by Monthly_Rate
+Desc
+
+select Education_Field, Gender, Hourly_Rate, Job_involvement from [HR empolyee attrition]
+order by Hourly_Rate
+desc
