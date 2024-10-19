@@ -16,7 +16,7 @@
 
 ## Project Overview
 
-The purpose of this project is to analyse the current employee rate within the organization, identifying the key factors enhancing employee retention, occupancy and more.
+The purpose of this project is to analyze the current employee rate within the organization, identifying the key factors enhancing employee retention, occupancy and more.
 
 ## Data Description 
 
@@ -29,11 +29,11 @@ The Human Resources dataset comprises if 1470 rows and 35 columns containing det
 
 ## Tools used
 
-•	SQL server management studio: To analyse data
+•	Excel: For cleaning the dataset and SQL server management studio: To analyze data
 
 •	Power bi: For visualization
 
-## Questions Answered In Power bi
+## Questions Answered 
 
 1.	What is total monthly income?
 2.	What is the total job satisfaction?
